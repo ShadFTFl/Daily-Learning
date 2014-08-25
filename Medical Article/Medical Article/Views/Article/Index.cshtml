@@ -1,0 +1,58 @@
+﻿@using Medical_Article.Models
+@model IEnumerable<Medical_Article.Models.Article>
+
+@{
+    ViewBag.Title = "Search For";
+}
+
+<h2>Search For</h2>
+
+@using(Html.BeginForm())
+{ 
+    @Html.DisplayName("searchText")
+    @Html.Editor("searchText")
+    <input type="submit" value="search"/>
+}
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Headings)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Content)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Image)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Headings)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Content)
+        </td>
+        <td>
+            
+
+            @if (item.Image != null)
+            {
+                <img src="@Url.Content("~/Images/" + item.Image)" width="240px" height="176px"/>
+                
+            }
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.ArticleId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.ArticleId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.ArticleId })
+        </td>
+    </tr>
+}
+
+</table>

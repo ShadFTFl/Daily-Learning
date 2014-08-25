@@ -1,0 +1,144 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Data;
+using System.Data.Entity;
+using System.Linq;
+using System.Net;
+using System.Web;
+using System.Web.Mvc;
+using Medical_Article.Models;
+
+namespace Medical_Article.Controllers
+{
+    public class ArticleController : Controller
+    {
+        private ContextDb db = new ContextDb();
+
+        // GET: /Article/
+        [Authorize]
+        public ActionResult Index()
+        {
+            return View(db.Articles.ToList());
+        }
+
+        [HttpPost]
+        public ActionResult Index(string searchText)
+        {
+            var shad = db.Articles.Where(a => a.Headings.Contains(searchText)).ToList();
+            return View(shad);
+        }
+
+        // GET: /Article/Details/5
+        public ActionResult Details(int? id)
+        {
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+            Article article = db.Articles.Find(id);
+            if (article == null)
+            {
+                return HttpNotFound();
+            }
+            return View(article);
+        }
+
+        // GET: /Article/Create
+        [Authorize]
+        public ActionResult Create()
+        {
+
+            return View();
+        }
+
+        // POST: /Article/Create
+        // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
+        // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        [Authorize]
+        public ActionResult Create([Bind(Include="ArticleId,Headings,Content,Image")] Article article, HttpPostedFileBase  file )
+        {
+            if (ModelState.IsValid)
+            {
+                if(file!=null)
+                {
+                   file.SaveAs(HttpContext.Server.MapPath("~/Images/")+file.FileName);
+                   article.Image = file.FileName;
+                }
+                db.Articles.Add(article);
+                db.SaveChanges();
+                return RedirectToAction("Index");
+            }
+
+            return View("Index");
+        }
+
+
+        // GET: /Article/Edit/5
+        public ActionResult Edit(int? id)
+        {
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+            Article article = db.Articles.Find(id);
+            if (article == null)
+            {
+                return HttpNotFound();
+            }
+            return View(article);
+        }
+
+        // POST: /Article/Edit/5
+        // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
+        // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Edit([Bind(Include="ArticleId,Headings,Content,Image")] Article article)
+        {
+            if (ModelState.IsValid)
+            {
+                db.Entry(article).State = EntityState.Modified;
+                db.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            return View(article);
+        }
+
+        // GET: /Article/Delete/5
+        public ActionResult Delete(int? id)
+        {
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+            Article article = db.Articles.Find(id);
+            if (article == null)
+            {
+                return HttpNotFound();
+            }
+            return View(article);
+        }
+
+        // POST: /Article/Delete/5
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public ActionResult DeleteConfirmed(int id)
+        {
+            Article article = db.Articles.Find(id);
+            db.Articles.Remove(article);
+            db.SaveChanges();
+            return RedirectToAction("Index");
+        }
+
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing)
+            {
+                db.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+    }
+}

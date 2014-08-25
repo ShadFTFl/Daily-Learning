@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph GraphDirection="LeftToRight" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="Antlr 3.4.1.9004" Category="Package" Bounds="699.758333333333,167.88,102.053333333333,25.96" Label="Antlr 3.4.1.9004" />
+    <Node Id="FTFLUniversity" Category="Project" Bounds="499.951666666667,-88,95.6666666666666,25.96" Label="FTFLUniversity" UseManualLocation="True" />
+    <Node Id="Microsoft.AspNet.Mvc 5.0.0" Category="Package" Bounds="250.411666666667,55.9600000000002,164.746666666667,25.96" Label="Microsoft.AspNet.Mvc 5.0.0" />
+    <Node Id="Microsoft.AspNet.Razor 3.0.0" Category="Package" Bounds="218.488333333333,167.88,172.593333333333,25.96" Label="Microsoft.AspNet.Razor 3.0.0" />
+    <Node Id="Microsoft.AspNet.Web.Optimization 1.1.1" Category="Package" Bounds="445.553333333333,55.96,238.463333333333,25.96" Label="Microsoft.AspNet.Web.Optimization 1.1.1" />
+    <Node Id="Microsoft.AspNet.WebPages 3.0.0" Category="Package" Bounds="335.543333333333,111.92,198.483333333333,25.96" Label="Microsoft.AspNet.WebPages 3.0.0" />
+    <Node Id="Microsoft.Web.Infrastructure 1.0.0.0" Category="Package" Bounds="460.746666666667,167.88,208.076666666667,25.96" Label="Microsoft.Web.Infrastructure 1.0.0.0" />
+    <Node Id="Modernizr 2.6.2" Category="Package" Bounds="714.526666666667,55.96,102.516666666667,25.96" Label="Modernizr 2.6.2" />
+    <Node Id="Newtonsoft.Json 5.0.6" Category="Package" Bounds="832.058333333333,167.88,135.453333333333,25.96" Label="Newtonsoft.Json 5.0.6" />
+    <Node Id="Respond 1.2.0" Category="Package" Bounds="847.593333333333,55.96,94.3833333333333,25.96" Label="Respond 1.2.0" />
+    <Node Id="WebGrease 1.5.2" Category="Package" Bounds="696.486666666667,111.92,108.596666666667,25.96" Label="WebGrease 1.5.2" />
+    <Node Id="bootstrap 3.0.0" Category="Package" Bounds="-7.105427357601E-15,55.9600000000002,99.57,25.96" Label="bootstrap 3.0.0" />
+    <Node Id="jQuery 1.10.2" Category="Package" Bounds="130.101666666666,55.9600000000002,89.3666666666667,25.96" Label="jQuery 1.10.2" />
+  </Nodes>
+  <Links>
+    <Link Source="FTFLUniversity" Target="Microsoft.AspNet.Mvc 5.0.0" Category="Installed Package" Bounds="359.648634457214,-62.04,168.75110585196,112.992520548742" />
+    <Link Source="FTFLUniversity" Target="Microsoft.AspNet.Web.Optimization 1.1.1" Category="Installed Package" Bounds="549.317788277461,-62.04,12.8789645946682,109.06200347237" />
+    <Link Source="FTFLUniversity" Target="Modernizr 2.6.2" Category="Installed Package" Bounds="567.440738222612,-62.04,171.178309801065,113.040499219803" />
+    <Link Source="FTFLUniversity" Target="Respond 1.2.0" Category="Installed Package" Bounds="579.07188587455,-62.04,276.113247658599,114.551188283139" />
+    <Link Source="FTFLUniversity" Target="bootstrap 3.0.0" Category="Installed Package" Bounds="103.332635098925,-62.0407218954179,399.553222363412,115.501368122711" />
+    <Link Source="FTFLUniversity" Target="jQuery 1.10.2" Category="Installed Package" Bounds="216.812496508579,-62.04,297.341355959807,114.759414519837" />
+    <Link Source="Microsoft.AspNet.Mvc 5.0.0" Target="Microsoft.AspNet.Razor 3.0.0" Category="Package Dependency" Bounds="304.785003662109,81.9199981689453,21.50537109375,76.9600067138672" />
+    <Link Source="Microsoft.AspNet.Mvc 5.0.0" Target="Microsoft.AspNet.WebPages 3.0.0" Category="Package Dependency" Bounds="356.444030761719,81.9199981689453,46.7914123535156,25.6710510253906" />
+    <Link Source="Microsoft.AspNet.Web.Optimization 1.1.1" Target="Microsoft.Web.Infrastructure 1.0.0.0" Category="Package Dependency" Bounds="564.784973144531,81.9199981689453,0,76.9600067138672" />
+    <Link Source="Microsoft.AspNet.Web.Optimization 1.1.1" Target="WebGrease 1.5.2" Category="Package Dependency" Bounds="607.927978515625,81.9199981689453,91.0956420898438,27.4070663452148" />
+    <Link Source="Microsoft.AspNet.WebPages 3.0.0" Target="Microsoft.AspNet.Razor 3.0.0" Category="Package Dependency" Bounds="343.205322265625,137.880004882813,61.4259948730469,26.4415283203125" />
+    <Link Source="Microsoft.AspNet.WebPages 3.0.0" Target="Microsoft.Web.Infrastructure 1.0.0.0" Category="Package Dependency" Bounds="464.938690185547,137.880004882813,61.4259948730469,26.4415283203125" />
+    <Link Source="WebGrease 1.5.2" Target="Antlr 3.4.1.9004" Category="Package Dependency" Bounds="750.784973144531,137.880004882813,0,21" />
+    <Link Source="WebGrease 1.5.2" Target="Newtonsoft.Json 5.0.6" Category="Package Dependency" Bounds="785.345764160156,137.880004882813,71.453125,26.8356781005859" />
+  </Links>
+  <Categories>
+    <Category Id="Installed Package" />
+    <Category Id="Package" />
+    <Category Id="Package Dependency" />
+    <Category Id="Project" />
+  </Categories>
+  <Properties>
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="GraphDirection" DataType="Microsoft.VisualStudio.Diagrams.Layout.LayoutOrientation" />
+    <Property Id="GroupLabel" DataType="System.String" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="UseManualLocation" DataType="System.Boolean" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
+  </Properties>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="Project" ValueLabel="True">
+      <Condition Expression="HasCategory('Project')" />
+      <Setter Property="Background" Value="Blue" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Package Dependency" ValueLabel="True">
+      <Condition Expression="HasCategory('Package Dependency')" />
+      <Setter Property="Background" Value="Yellow" />
+    </Style>
+  </Styles>
+</DirectedGraph>

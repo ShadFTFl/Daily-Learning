@@ -1,0 +1,110 @@
+H:\Medical Article\Medical Article\bin\Medical Article.dll.config
+H:\Medical Article\Medical Article\bin\Medical Article.dll
+H:\Medical Article\Medical Article\bin\Medical Article.pdb
+H:\Medical Article\Medical Article\bin\Antlr3.Runtime.dll
+H:\Medical Article\Medical Article\bin\EntityFramework.dll
+H:\Medical Article\Medical Article\bin\EntityFramework.SqlServer.dll
+H:\Medical Article\Medical Article\bin\Microsoft.AspNet.Identity.Core.dll
+H:\Medical Article\Medical Article\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+H:\Medical Article\Medical Article\bin\Microsoft.AspNet.Identity.Owin.dll
+H:\Medical Article\Medical Article\bin\Microsoft.Owin.dll
+H:\Medical Article\Medical Article\bin\Microsoft.Owin.Host.SystemWeb.dll
+H:\Medical Article\Medical Article\bin\Microsoft.Owin.Security.Cookies.dll
+H:\Medical Article\Medical Article\bin\Microsoft.Owin.Security.dll
+H:\Medical Article\Medical Article\bin\Microsoft.Owin.Security.Facebook.dll
+H:\Medical Article\Medical Article\bin\Microsoft.Owin.Security.Google.dll
+H:\Medical Article\Medical Article\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+H:\Medical Article\Medical Article\bin\Microsoft.Owin.Security.OAuth.dll
+H:\Medical Article\Medical Article\bin\Microsoft.Owin.Security.Twitter.dll
+H:\Medical Article\Medical Article\bin\Microsoft.Web.Infrastructure.dll
+H:\Medical Article\Medical Article\bin\Newtonsoft.Json.dll
+H:\Medical Article\Medical Article\bin\Owin.dll
+H:\Medical Article\Medical Article\bin\System.Web.Helpers.dll
+H:\Medical Article\Medical Article\bin\System.Web.Mvc.dll
+H:\Medical Article\Medical Article\bin\System.Web.Optimization.dll
+H:\Medical Article\Medical Article\bin\System.Web.Razor.dll
+H:\Medical Article\Medical Article\bin\System.Web.WebPages.Deployment.dll
+H:\Medical Article\Medical Article\bin\System.Web.WebPages.dll
+H:\Medical Article\Medical Article\bin\System.Web.WebPages.Razor.dll
+H:\Medical Article\Medical Article\bin\WebGrease.dll
+H:\Medical Article\Medical Article\bin\System.Web.Helpers.xml
+H:\Medical Article\Medical Article\bin\System.Web.Mvc.xml
+H:\Medical Article\Medical Article\bin\System.Web.Optimization.xml
+H:\Medical Article\Medical Article\bin\System.Web.Razor.xml
+H:\Medical Article\Medical Article\bin\System.Web.WebPages.xml
+H:\Medical Article\Medical Article\bin\System.Web.WebPages.Deployment.xml
+H:\Medical Article\Medical Article\bin\System.Web.WebPages.Razor.xml
+H:\Medical Article\Medical Article\bin\Newtonsoft.Json.xml
+H:\Medical Article\Medical Article\bin\Antlr3.Runtime.pdb
+H:\Medical Article\Medical Article\bin\EntityFramework.xml
+H:\Medical Article\Medical Article\bin\EntityFramework.SqlServer.xml
+H:\Medical Article\Medical Article\bin\Microsoft.AspNet.Identity.Core.xml
+H:\Medical Article\Medical Article\bin\Microsoft.AspNet.Identity.Owin.xml
+H:\Medical Article\Medical Article\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+H:\Medical Article\Medical Article\bin\Microsoft.Owin.xml
+H:\Medical Article\Medical Article\bin\Microsoft.Owin.Host.SystemWeb.xml
+H:\Medical Article\Medical Article\bin\Microsoft.Owin.Security.xml
+H:\Medical Article\Medical Article\bin\Microsoft.Owin.Security.Facebook.xml
+H:\Medical Article\Medical Article\bin\Microsoft.Owin.Security.Cookies.xml
+H:\Medical Article\Medical Article\bin\Microsoft.Owin.Security.OAuth.xml
+H:\Medical Article\Medical Article\bin\Microsoft.Owin.Security.Google.xml
+H:\Medical Article\Medical Article\bin\Microsoft.Owin.Security.Twitter.xml
+H:\Medical Article\Medical Article\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+H:\Medical Article\Medical Article\obj\Debug\Medical Article.dll
+H:\Medical Article\Medical Article\obj\Debug\Medical Article.pdb
+H:\Medical Article\Medical Article\obj\Debug\Medical Article.csprojResolveAssemblyReference.cache
+D:\Medical Article\Medical Article\bin\Medical Article.dll.config
+D:\Medical Article\Medical Article\bin\Medical Article.dll
+D:\Medical Article\Medical Article\bin\Medical Article.pdb
+D:\Medical Article\Medical Article\bin\Antlr3.Runtime.dll
+D:\Medical Article\Medical Article\bin\EntityFramework.dll
+D:\Medical Article\Medical Article\bin\EntityFramework.SqlServer.dll
+D:\Medical Article\Medical Article\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Medical Article\Medical Article\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Medical Article\Medical Article\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Medical Article\Medical Article\bin\Microsoft.Owin.dll
+D:\Medical Article\Medical Article\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Medical Article\Medical Article\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Medical Article\Medical Article\bin\Microsoft.Owin.Security.dll
+D:\Medical Article\Medical Article\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Medical Article\Medical Article\bin\Microsoft.Owin.Security.Google.dll
+D:\Medical Article\Medical Article\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Medical Article\Medical Article\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Medical Article\Medical Article\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Medical Article\Medical Article\bin\Microsoft.Web.Infrastructure.dll
+D:\Medical Article\Medical Article\bin\Newtonsoft.Json.dll
+D:\Medical Article\Medical Article\bin\Owin.dll
+D:\Medical Article\Medical Article\bin\System.Web.Helpers.dll
+D:\Medical Article\Medical Article\bin\System.Web.Mvc.dll
+D:\Medical Article\Medical Article\bin\System.Web.Optimization.dll
+D:\Medical Article\Medical Article\bin\System.Web.Razor.dll
+D:\Medical Article\Medical Article\bin\System.Web.WebPages.Deployment.dll
+D:\Medical Article\Medical Article\bin\System.Web.WebPages.dll
+D:\Medical Article\Medical Article\bin\System.Web.WebPages.Razor.dll
+D:\Medical Article\Medical Article\bin\WebGrease.dll
+D:\Medical Article\Medical Article\bin\System.Web.Helpers.xml
+D:\Medical Article\Medical Article\bin\System.Web.Mvc.xml
+D:\Medical Article\Medical Article\bin\System.Web.Optimization.xml
+D:\Medical Article\Medical Article\bin\System.Web.Razor.xml
+D:\Medical Article\Medical Article\bin\System.Web.WebPages.xml
+D:\Medical Article\Medical Article\bin\System.Web.WebPages.Deployment.xml
+D:\Medical Article\Medical Article\bin\System.Web.WebPages.Razor.xml
+D:\Medical Article\Medical Article\bin\Newtonsoft.Json.xml
+D:\Medical Article\Medical Article\bin\Antlr3.Runtime.pdb
+D:\Medical Article\Medical Article\bin\EntityFramework.xml
+D:\Medical Article\Medical Article\bin\EntityFramework.SqlServer.xml
+D:\Medical Article\Medical Article\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Medical Article\Medical Article\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Medical Article\Medical Article\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Medical Article\Medical Article\bin\Microsoft.Owin.xml
+D:\Medical Article\Medical Article\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Medical Article\Medical Article\bin\Microsoft.Owin.Security.xml
+D:\Medical Article\Medical Article\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Medical Article\Medical Article\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Medical Article\Medical Article\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Medical Article\Medical Article\bin\Microsoft.Owin.Security.Google.xml
+D:\Medical Article\Medical Article\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Medical Article\Medical Article\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Medical Article\Medical Article\obj\Debug\Medical Article.csprojResolveAssemblyReference.cache
+D:\Medical Article\Medical Article\obj\Debug\Medical Article.dll
+D:\Medical Article\Medical Article\obj\Debug\Medical Article.pdb
