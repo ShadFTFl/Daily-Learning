@@ -1,0 +1,28 @@
+﻿@model WebMdApp.Models.Article
+
+@{
+    ViewBag.Title = "title";
+    
+}
+<div>
+    <h2>
+        @Html.DisplayFor(m=>m.Title)
+    </h2>
+</div>
+<div>
+    
+    @{
+        string image = Model.ImagePath;
+    }
+    <img src="@Url.Content("~/images/" + image)" width="250px" height="200px">
+</div>
+
+<div>
+    @*@{
+        string partialContent = Model.Content.Substring(0, 100);
+    }*@
+    <p>
+        @Html.DisplayFor(m=>m.Content)
+    </p>
+</div>
+

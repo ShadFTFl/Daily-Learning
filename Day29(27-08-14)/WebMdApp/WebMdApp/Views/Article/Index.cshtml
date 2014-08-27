@@ -1,0 +1,33 @@
+﻿@using Microsoft.Ajax.Utilities
+@model IEnumerable<WebMdApp.Models.Article>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Articles written by renowned Doctors:</h2>
+
+@foreach (var item in Model)
+{
+   
+        <h1>
+           @*@{
+                string linkText = item.Title;
+            }*@
+            @Html.ActionLink(item.Title, "Post", new { id = item.ArticleId })
+        </h1>
+        <div>
+            <i>written by - </i>
+            
+            @Html.DisplayFor(modelItem => item.Doctor.DoctorName)
+        </div>
+    <div>
+        <img src="@Url.Content("~/images/"+item.ImagePath)" width="250px" height="200px">
+    </div>
+    
+        <div class="article_content">
+            @Html.DisplayFor(modelItem=>item.Content)
+        </div>
+    
+    
+}
