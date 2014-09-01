@@ -1,0 +1,23 @@
+E:\FTFL - batch 01 - ASP.Net MVC\A Sample Project\DesktopVersion\HRAppDesktopVersion\HRAppDesktopVersion\bin\Debug\HRAppDesktopVersion.exe.config
+E:\FTFL - batch 01 - ASP.Net MVC\A Sample Project\DesktopVersion\HRAppDesktopVersion\HRAppDesktopVersion\bin\Debug\HRAppDesktopVersion.exe
+E:\FTFL - batch 01 - ASP.Net MVC\A Sample Project\DesktopVersion\HRAppDesktopVersion\HRAppDesktopVersion\bin\Debug\HRAppDesktopVersion.pdb
+E:\FTFL - batch 01 - ASP.Net MVC\A Sample Project\DesktopVersion\HRAppDesktopVersion\HRAppDesktopVersion\obj\Debug\HRAppDesktopVersion.DashboardUI.resources
+E:\FTFL - batch 01 - ASP.Net MVC\A Sample Project\DesktopVersion\HRAppDesktopVersion\HRAppDesktopVersion\obj\Debug\HRAppDesktopVersion.EmployeeSummaryReportUI.resources
+E:\FTFL - batch 01 - ASP.Net MVC\A Sample Project\DesktopVersion\HRAppDesktopVersion\HRAppDesktopVersion\obj\Debug\HRAppDesktopVersion.Properties.Resources.resources
+E:\FTFL - batch 01 - ASP.Net MVC\A Sample Project\DesktopVersion\HRAppDesktopVersion\HRAppDesktopVersion\obj\Debug\HRAppDesktopVersion.csproj.GenerateResource.Cache
+E:\FTFL - batch 01 - ASP.Net MVC\A Sample Project\DesktopVersion\HRAppDesktopVersion\HRAppDesktopVersion\obj\Debug\HRAppDesktopVersion.exe
+E:\FTFL - batch 01 - ASP.Net MVC\A Sample Project\DesktopVersion\HRAppDesktopVersion\HRAppDesktopVersion\obj\Debug\HRAppDesktopVersion.pdb
+E:\FTFL - batch 01 - ASP.Net MVC\A Sample Project\DesktopVersion\HRAppDesktopVersion\HRAppDesktopVersion\obj\Debug\HRAppDesktopVersion.csprojResolveAssemblyReference.cache
+E:\FTFL - batch 01 - ASP.Net MVC\A Sample Project\DesktopVersion\HRAppDesktopVersion\HRAppDesktopVersion\obj\Debug\HRAppDesktopVersion.DesignationSetupUI.resources
+E:\FTFL - batch 01 - ASP.Net MVC\A Sample Project\DesktopVersion\HRAppDesktopVersion\HRAppDesktopVersion\obj\Debug\HRAppDesktopVersion.EmployeeEntryUI.resources
+D:\Jonayet\Day 33 - 1 September 2014\HRAppDesktopVersion\HRAppDesktopVersion\bin\Debug\HRAppDesktopVersion.exe.config
+D:\Jonayet\Day 33 - 1 September 2014\HRAppDesktopVersion\HRAppDesktopVersion\obj\Debug\HRAppDesktopVersion.exe
+D:\Jonayet\Day 33 - 1 September 2014\HRAppDesktopVersion\HRAppDesktopVersion\obj\Debug\HRAppDesktopVersion.pdb
+D:\Jonayet\Day 33 - 1 September 2014\HRAppDesktopVersion\HRAppDesktopVersion\obj\Debug\HRAppDesktopVersion.DashboardUI.resources
+D:\Jonayet\Day 33 - 1 September 2014\HRAppDesktopVersion\HRAppDesktopVersion\obj\Debug\HRAppDesktopVersion.DesignationSetupUI.resources
+D:\Jonayet\Day 33 - 1 September 2014\HRAppDesktopVersion\HRAppDesktopVersion\obj\Debug\HRAppDesktopVersion.EmployeeEntryUI.resources
+D:\Jonayet\Day 33 - 1 September 2014\HRAppDesktopVersion\HRAppDesktopVersion\obj\Debug\HRAppDesktopVersion.EmployeeSummaryReportUI.resources
+D:\Jonayet\Day 33 - 1 September 2014\HRAppDesktopVersion\HRAppDesktopVersion\obj\Debug\HRAppDesktopVersion.Properties.Resources.resources
+D:\Jonayet\Day 33 - 1 September 2014\HRAppDesktopVersion\HRAppDesktopVersion\obj\Debug\HRAppDesktopVersion.csproj.GenerateResource.Cache
+D:\Jonayet\Day 33 - 1 September 2014\HRAppDesktopVersion\HRAppDesktopVersion\bin\Debug\HRAppDesktopVersion.exe
+D:\Jonayet\Day 33 - 1 September 2014\HRAppDesktopVersion\HRAppDesktopVersion\bin\Debug\HRAppDesktopVersion.pdb

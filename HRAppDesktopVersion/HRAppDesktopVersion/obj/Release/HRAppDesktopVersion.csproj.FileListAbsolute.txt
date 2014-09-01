@@ -1,0 +1,8 @@
+E:\FTFL - batch 01 - ASP.Net MVC\A Sample Project\DesktopVersion\HRAppDesktopVersion\HRAppDesktopVersion\bin\Release\HRAppDesktopVersion.exe.config
+E:\FTFL - batch 01 - ASP.Net MVC\A Sample Project\DesktopVersion\HRAppDesktopVersion\HRAppDesktopVersion\bin\Release\HRAppDesktopVersion.exe
+E:\FTFL - batch 01 - ASP.Net MVC\A Sample Project\DesktopVersion\HRAppDesktopVersion\HRAppDesktopVersion\bin\Release\HRAppDesktopVersion.pdb
+E:\FTFL - batch 01 - ASP.Net MVC\A Sample Project\DesktopVersion\HRAppDesktopVersion\HRAppDesktopVersion\obj\Release\HRAppDesktopVersion.EmployeeSummaryReportUI.resources
+E:\FTFL - batch 01 - ASP.Net MVC\A Sample Project\DesktopVersion\HRAppDesktopVersion\HRAppDesktopVersion\obj\Release\HRAppDesktopVersion.Properties.Resources.resources
+E:\FTFL - batch 01 - ASP.Net MVC\A Sample Project\DesktopVersion\HRAppDesktopVersion\HRAppDesktopVersion\obj\Release\HRAppDesktopVersion.csproj.GenerateResource.Cache
+E:\FTFL - batch 01 - ASP.Net MVC\A Sample Project\DesktopVersion\HRAppDesktopVersion\HRAppDesktopVersion\obj\Release\HRAppDesktopVersion.exe
+E:\FTFL - batch 01 - ASP.Net MVC\A Sample Project\DesktopVersion\HRAppDesktopVersion\HRAppDesktopVersion\obj\Release\HRAppDesktopVersion.pdb
