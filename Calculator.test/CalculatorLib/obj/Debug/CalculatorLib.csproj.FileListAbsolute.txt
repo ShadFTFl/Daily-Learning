@@ -1,0 +1,5 @@
+H:\2014000096\Calculator.test\CalculatorLib\bin\Debug\CalculatorLib.dll
+H:\2014000096\Calculator.test\CalculatorLib\bin\Debug\CalculatorLib.pdb
+H:\2014000096\Calculator.test\CalculatorLib\obj\Debug\CalculatorLib.csprojResolveAssemblyReference.cache
+H:\2014000096\Calculator.test\CalculatorLib\obj\Debug\CalculatorLib.dll
+H:\2014000096\Calculator.test\CalculatorLib\obj\Debug\CalculatorLib.pdb
